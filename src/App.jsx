@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/footer'
+import Main from './components/main'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,9 +12,7 @@ function App() {
   return (
     <>
     <Navbar/>
-       <h1 className="text-3xl font-bold underline min-h-screen justify-center flex ">
-      Template
-    </h1>
+    <Main/>
     <Footer />
     </>
   )

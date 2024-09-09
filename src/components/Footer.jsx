@@ -3,7 +3,7 @@ import { IMG } from "./img";
 import { Links } from "./link";
 
 export function Footer(){
-    return <footer className="w-full min-72 bg-white pt-20 flex justify-evenly items-center bottom-0">
+    return <footer className="w-full min-72 bg-white pt-20 flex justify-evenly items-center relative">
 <div>
     <IMG></IMG>
     <p className="mt-5">The most advanced ChatGPT prompt and resource <br />
